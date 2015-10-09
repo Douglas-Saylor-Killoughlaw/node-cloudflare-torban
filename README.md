@@ -13,7 +13,9 @@ So if you have 5 free zones, and one Pro you have 2000 slots, I recomend at leas
 
 ## Installation
 
-	npm install cloudflare-torban
+	git clone git@github.com:icodeforlove/node-cloudflare-torban.git
+	cd node-cloudflare-torban
+	npm install
 
 edit and rename the config file to `default.json`
 
