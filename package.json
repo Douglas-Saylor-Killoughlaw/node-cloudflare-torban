@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-torban",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "You must have room for the total amount of tor exit nodes, you can find out if you do by doing the math.",
   "keywords": [
     "cloudflare",
