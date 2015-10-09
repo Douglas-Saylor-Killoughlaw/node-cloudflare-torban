@@ -1,0 +1,32 @@
+{
+  "name": "cloudflare-torban",
+  "version": "0.0.1",
+  "description": "You must have room for the total amount of tor exit nodes, you can find out if you do by doing the math.",
+  "keywords": [
+    "cloudflare",
+    "cloudflare tor",
+    "tor ban",
+    "torban"
+  ],
+  "homepage": "https://github.com/icodeforlove/node-cloudflare-torban",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icodeforlove/node-cloudflare-torban.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "config": "^1.16.0",
+    "cloudflare4": "^0.1.7",
+    "bluebird": "^2.10.2",
+    "promise-object": "^0.1.5",
+    "debug": "^2.2.0",
+    "request-promise": "^0.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Chad Scira <_@chad.so> (chad.so)",
+  "license": "ISC"
+}
