@@ -16,7 +16,7 @@
   "main": "index.js",
   "dependencies": {
     "config": "^1.16.0",
-    "cloudflare4": "^0.1.7",
+    "cloudflare4": "^0.1.8",
     "bluebird": "^2.10.2",
     "promise-object": "^0.1.5",
     "debug": "^2.2.0",
