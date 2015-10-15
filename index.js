@@ -29,7 +29,11 @@ var TorBan = PromiseObject.create({
 		}, this);
 
 		while (this.stopping == false) {
-			yield this.update();
+			try {
+				yield this.update();
+			} catch (error) {
+				console.log('update failed ' + error.stack);
+			}
 
 			debug('delaying ' + this.interval + 'ms until next check');
 			yield Promise.delay(this.interval);
